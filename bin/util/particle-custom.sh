@@ -2,5 +2,5 @@
 
 particle_custom_stuff() {
   status "Loading in the database..."
-  bin/load-db-into-jawsdb
+  $1/bin/load-db-into-jawsdb
 }
